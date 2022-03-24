@@ -205,6 +205,8 @@ defaults write com.apple.universalaccess reduceTransparency -bool true
 #defaults write com.apple.dock wvous-bl-corner -int 4
 #defaults write com.apple.dock wvous-bl-modifier -int 0
 
+killall Dock
+
 ###############################################################################
 # Safari & WebKit                                                             #
 ###############################################################################
